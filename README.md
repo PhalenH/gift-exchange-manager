@@ -1,7 +1,4 @@
-# WishList
-
-## Deployed Site
-https://wishlistmanager.herokuapp.com/
+# WishList Manager
 
 ## Table of Contents
 
@@ -9,6 +6,11 @@ https://wishlistmanager.herokuapp.com/
 - [User Story](#User-Story)
 - [Resources](#Resources)
 - [Contributors](#Contributors)
+
+## Deployed Site
+https://wishlistmanager.herokuapp.com/
+
+![Screenshot of portfolio.](./assets/finished-homepage.png)
 
 ## Description
 Wishlist is a website designed to take the hassle out of holiday party planning. It allows the user to create an account, create a wishlist, create a group, join a group, and see others wishlists. Wishlist allows the user to edit and update their personal wishlist in an easy and intuitive way. It also gives people the ability to be reminded of upcoming party details via email. Once members have all joined, the creator is able to randomly draw names of group members for gift exchange games, allowing each user to see the wishlist of the person they drew. 
@@ -58,6 +60,10 @@ Then they are logged out and taken to homepage
 - Checkout our github for further information on the application as well as our other work!
 - Feel free to reach out with questions, concerns, or just to chat at our respective emails
 
+Phalen:
+- [Phalen's Github](https://github.com/PhalenH)
+- Email Phalen at: pchaze@yahoo.com
+
 Sam Kennedy: 
 - [Sam's Github](https://github.com/kennedysam168)
 - Email Sam at: kennedysam168@gmail.com
@@ -65,7 +71,3 @@ Sam Kennedy:
 Jeremiah Quill: 
 - [Jeremiah's Github](https://github.com/jeremiah-quill)
 - Email Jeremiah at: jcq5010@gmail.com
-
-Phalen:
-- [Phalen's Github](https://github.com/PhalenH)
-- Email Phalen at: pchaze@yahoo.com

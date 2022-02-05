@@ -1,3 +1,4 @@
+const compression = require("compression");
 const path = require("path");
 const express = require("express");
 const session = require("express-session");
@@ -28,6 +29,8 @@ const sess = {
   }),
 };
 
+// add compression as middleware
+app.use(compression());
 app.use(session(sess));
 
 // Inform Express.js on which template engine to use
@@ -47,8 +50,6 @@ app.use(function (req, res, next) {
 });
 
 app.use(routes);
-
-
 
 // every day at noon check to see if any group event date is 7 days out.  If it is, send a reminder to anyone in those groups who has reminders turned on
 cron.schedule("0 12 * * *", async () => {
@@ -95,7 +96,6 @@ app.get("*", function (req, res) {
     page_title: "Sorry!",
   });
 });
-
 
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => {
