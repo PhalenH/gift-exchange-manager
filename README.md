@@ -57,12 +57,15 @@ Then they are logged out and taken to homepage
     - Bcrypt
 
 ## Contributors
-- Checkout our github for further information on the application as well as our other work!
-- Feel free to reach out with questions, concerns, or just to chat at our respective emails
+- Phalen: Worked with models, bcrypt, RESTful routing, handlebars rendering. Developed front-end/back-end functionality for all user interactions (signup/login/logout and resetting email/password/username) and gift interactions (adding/deleting/updating a gift and getting a single gift). Created server and connection files as well as styled the edit profile page as well as provided input for styling throughout application.
+
+- Sam: pirimary contributor to styling of application from color schemes, animation, backgrounds and layouts. Also built out html code that was used in handlebars for landing page, login/signup page, and profile page.
+
+- Jeremiah: Developed front-end/back-end functionality for all group interactions (adding new group/new user to groups, password checking for groups, random assignment for gift exchange, and updating group deatils), worked on email reminder function, models, and provided styling input throughout application.
 
 Phalen:
 - [Phalen's Github](https://github.com/PhalenH)
-- Email Phalen at: pchaze@yahoo.com
+- Email Phalen at: phalenhazel@gmail.com
 
 Sam Kennedy: 
 - [Sam's Github](https://github.com/kennedysam168)
